@@ -399,8 +399,98 @@
               </li>
               </ul>
               </div>
+              <!-- =====email============ -->
+              <div class="footer-email">
+              <p class="footer-btn-title">Subscribe</p>
+              <form class="form-email">
+                <label class="form-email-label">
+                  <input class="footer-intyp form-email-input "
+                   type="email" 
+                   name="email" 
+                    placeholder="E-mail"
+                    />
+                </label>
+                <button class="button-label" type="submit">Subscribe
+                  <svg class="form-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-icon-send"></use></svg>
+                </button>
+              </form>
+    </div>
             </div>
       </footer>
+      <!--Backdrop  -->
+      <div class="backdrop is-open">
+  <div class="modal"> 
+  <button class="modal-icon-btn" type="button" aria-label="modal-close button">
+    <svg class="modal-close-btn-icon" width="8" height="8">
+      <use href="./images/icons.svg#icon-cross"></use></svg>
+      </button>
+      <p class="leave your details">Leave your contacts and we will call you back</p>
+      <form class="leave-details">
+  <div class="information-about-yourself">
+        <label  class="information-about-yourself-label" for="user-first-name">
+          Name
+        </label>
+          <input class="information-about-yourself-input"
+           type="text" 
+           name="user_first_name" 
+           id="user-first-name"
+           required
+           pattern="[a-zA-Za-яА-ЯіІїЇєЄгГйЙ`]+"
+           title="Tеtiana"
+           />
+          </div>
+  <div class="information-about-yourself">
+        <label  class="information-about-yourself-label" for="user-tel">
+          Phone
+        </label>
+            <input class="information-about-yourself-input"
+             type="tel"
+             name="user_tel_number" 
+             id="user-tel"
+             required
+             pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
+             title="xxx-xxx-xx-xx"
+             />
+            </div>
+  <div class="information-about-yourself">
+         <label  class="information-about-yourself-label" for="user-email">
+          Email
+          </label>
+          <input class="information-about-yourself-input"
+          type="email"
+             name="user_email" 
+             id="user-email"
+             required
+             />
+           </div>
+  <div class="information-about-yourself">
+           <label  class="information-about-yourself-label" for="user-comment">
+            Comment
+          </label>
+            <textarea
+            class="information-about-yourself-message"
+             name="user_comment"
+             id="user-comment"
+             placeholder="Text input">
+            </textarea>
+          </div>
+<div class="information-from-checkbox-wrapper">
+          <input class="information-from-checkbox" 
+          type="checkbox"
+          name="user_policy"
+          value="true"
+          id="user-policy"
+          required
+          />
+              <label class="information-from-checkbox-label" for="user-policy">
+                I accept the terms and conditions of the
+                 <a href=""privacy-policy-link>Privacy Policy</a>
+                    </label>
+                    </div>
+  <button class="information-from-btn" type="submit">Send</button>
+    </div>
+      </div>
     </body>
   
 </html>
