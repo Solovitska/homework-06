@@ -425,26 +425,36 @@
     <svg class="modal-close-btn-icon" width="8" height="8">
       <use href="./images/icons.svg#icon-cross"></use></svg>
       </button>
-      <p class="leave your details">Leave your contacts and we will call you back</p>
+      <p class="leave-your-details">Leave your contacts and we will call you back</p>
+      <!-- form windows -->
       <form class="leave-details">
+    
   <div class="information-about-yourself">
         <label  class="information-about-yourself-label" for="user-first-name">
           Name
         </label>
-          <input class="information-about-yourself-input"
+        <div class="review-form-inpyt">
+          <input 
+          class="information-about-yourself-input"
            type="text" 
            name="user_first_name" 
            id="user-first-name"
            required
            pattern="[a-zA-Za-яА-ЯіІїЇєЄгГйЙ`]+"
-           title="Tеtiana"
+           title="Tеtiana Solovitska"
            />
+           <svg class="review-from-icon" width="18" height="24">
+            <use href="./images/icons.svg#icon-name"></use></svg>
+            
           </div>
-  <div class="information-about-yourself">
+          </div>
+  <div class="information-form-yourself">
         <label  class="information-about-yourself-label" for="user-tel">
           Phone
         </label>
-            <input class="information-about-yourself-input"
+        <div class="review-form-inpyt">
+            <input
+             class="information-about-yourself-input"
              type="tel"
              name="user_tel_number" 
              id="user-tel"
@@ -452,31 +462,40 @@
              pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
              title="xxx-xxx-xx-xx"
              />
+<svg class="review-from-icon" width="18" height="24">
+  <use href="./images/icons.svg#icon-phone"></use></svg>
             </div>
-  <div class="information-about-yourself">
+            </div>
+  <div class="information-about-yourself ">
          <label  class="information-about-yourself-label" for="user-email">
           Email
           </label>
-          <input class="information-about-yourself-input"
+          <div class="review-form-inpyt">
+          <input 
+          class="information-about-yourself-input"
           type="email"
              name="user_email" 
              id="user-email"
              required
              />
+<svg class="review-from-icon" width="18" height="24">
+  <use href="./images/icons.svg#icon-mail"></use></svg>
            </div>
-  <div class="information-about-yourself">
+           </div>
+  <div class="information-about-yourself information-about-yourself-comment">
            <label  class="information-about-yourself-label" for="user-comment">
             Comment
           </label>
-            <textarea
+            <textarea 
             class="information-about-yourself-message"
              name="user_comment"
              id="user-comment"
-             placeholder="Text input">
+             placeholder="Text input">Text input
             </textarea>
           </div>
 <div class="information-from-checkbox-wrapper">
-          <input class="information-from-checkbox" 
+          <input 
+          class="information-from-checkbox visually-hidden" 
           type="checkbox"
           name="user_policy"
           value="true"
@@ -484,13 +503,20 @@
           required
           />
               <label class="information-from-checkbox-label" for="user-policy">
+                <span class="review-form-checkbox">
+                  <svg class="review-form-checkbox-icon"
+                  width="10"
+                  height="8">
+                  <use href="./images/icons.svg#icon-icon-send>"></use></svg>
+                  </span>
                 I accept the terms and conditions of the
-                 <a href=""privacy-policy-link>Privacy Policy</a>
+                 <a href=""privacy-policy-link accept-color href="">
+                  Privacy Policy</a>
                     </label>
                     </div>
   <button class="information-from-btn" type="submit">Send</button>
+  </form>
     </div>
       </div>
     </body>
-  
 </html>
