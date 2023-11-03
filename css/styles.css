@@ -664,9 +664,8 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
         border: none;
         background-color: #404bbf;
     }
-.modal.modal-close-btn-icon:hover,
-.modal.modal-close-btn-icon:focus
-{
+.modal .modal-close-btn-icon:hover,
+.modal .modal-close-btn-icon:focus{
     fill: #ffffff;}
     
     .modal-close-btn-icon{
@@ -720,7 +719,7 @@ margin-bottom: 4px;
   transform: translateY(-50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
-.information-about-yourself-input:focus + .review-from-icon{
+.information-about-yourself-label:focus + .review-from-icon{
     fill: #4d5ae5;
 }
 
