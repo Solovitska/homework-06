@@ -664,8 +664,8 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
         border: none;
         background-color: #404bbf;
     }
-.modal-close-btn-icon:hover,
-.modal-close-btn-icon:focus
+.modal.modal-close-btn-icon:hover,
+.modal.modal-close-btn-icon:focus
 {
     fill: #ffffff;}
     
@@ -767,8 +767,9 @@ margin-bottom: 4px;
     border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   fill: transparent;
+
 }
-.information-from-checkbox:checked 
+.information-from-checkbox-label:checked 
 + .review-form-checkbox{
     background-color: #404bbf; 
     border: none;
