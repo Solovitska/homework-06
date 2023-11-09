@@ -55,8 +55,6 @@ body {
 /* ======== Page header==================================== */
 .page-header{
     border-bottom: 1px solid #e7e9fc;
-    padding-top: 24px;
-    padding-left: 24px;
     box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
@@ -71,12 +69,14 @@ body {
  .container-flex{
     display: flex;
     justify-content: space-between;
+    align-self: center;
  }   
     
 .page-navigation {
     gap: 40px;
     display: flex;
     align-items: flex-start;
+    align-items: center;
           
 }
 .logo-web{
@@ -117,6 +117,7 @@ color: #404bbf;}
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2E2F42;
+  padding: 24px 0;
 
 
 }
@@ -149,7 +150,6 @@ display: block;
  .page-address-info{
 display: flex;
 gap: 40px;
-
 }
  
 .page-address-info{
@@ -158,8 +158,8 @@ font-weight: 400;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
-
-
+font-style: normal;
+align-items: center;
 }
  
 .page-address-info:hover,
@@ -742,6 +742,9 @@ margin-bottom: 4px;
     background-color: transparent;
     color: rgba(46, 47, 66, 0.4);
     outline: transparent;
+    color: #2E2F4266;
+
+
 }
 .information-about-yourself-message:focus {
     border-color: #4D5AE5;
@@ -754,7 +757,9 @@ margin-bottom: 4px;
     line-height: 1.17;
     font-weight: 400;
     letter-spacing: 0.04em;
-    color: #8e8f99;  
+    color: #8e8f99;
+
+
 }
 .review-form-checkbox{
     display: inline-flex;
