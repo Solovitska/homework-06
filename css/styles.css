@@ -146,6 +146,11 @@ padding-left: 15px;
 .menu {
     display: none;
 }
+.container-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
 .page-address-info{
     display: none;
@@ -154,6 +159,7 @@ padding-left: 15px;
     border: none;
     background-color: transparent;
     padding: 0;
+    line-height: 0;
 }
 .mobile-open-btn-icon{
    fill: #2f2f37; }
