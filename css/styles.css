@@ -63,7 +63,11 @@ body {
         padding-right: 15px;
      
 }
+.section{
+padding-top: 96px;
+padding-bottom: 96px;
 
+}
   /* ==========Загальні стилі======== */
 /* ============== HEADER MOBILE STYLES ================================= */
 .menu {
@@ -81,7 +85,7 @@ body {
 }
 
 
-.container{
+.container-flex{
 display: flex;
   align-items: center;
   justify-content: space-between;
@@ -102,7 +106,7 @@ padding-bottom: 16px;
 
 .logo-color {
     color: #2e2f42;}
-        /* ========================Mobile menu============================== */
+        /* ========================backdrop============================== */
         .backdrop{
             position: fixed;
             top: 0;
@@ -235,15 +239,267 @@ display: block;
   .other-service:focus{
     background-color: #404bbf;
   }
-  
-
-
-
-
-.other-service:hover,
-.other-service:focus{
-    background-color: #404bbf;
+  /* ======================= OUR Section mobile*/
+  .container-icon{
+    display: none;
   }
+
+.criteria-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 72px;}
+
+.criteria-list-title{
+    text-align: center;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    margin-bottom: 8px;
+    color: #2E2F42; 
+
+}
+
+.text{
+font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+
+}
+
+/* ===============our  team mobile section */
+.team-list {
+background-color: #F4F4FD;}
+
+.team-our{
+    text-align: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.section-title{
+    margin-bottom: 72px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2E2F42;
+}
+
+.team-section-our{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 72px;}
+
+
+    .team-section-list-title,
+    .portfolio-list-title
+    {
+        margin-bottom: 8px;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #2E2F42;
+
+    }
+    .text-section{
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 8px;
+        text-align: center;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+    }
+
+.team-section-list-item{
+    background-color: #FFFFFF;
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;
+
+}
+.team-section-list-item:hover,
+.team-section-list-item:focus{
+background-color: #404bbf;}
+
+.first-name{
+    text-align: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.network-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+
+}
+.network-link-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #4D5AE5;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.network-link-item:hover,
+.network-link-item:focus{
+    background-color: #404bbf;
+
+}
+.link-icon{
+    fill: #F4F4FD;
+}
+/* =======================Modil portfolio */
+.portfolio{
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 48px;
+
+}
+.portfolio-list{
+    border: 1px solid #F4F4FD;
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+.portfolio-list:hover,
+.portfolio-list:focus{
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}  
+.profession-list-img{
+    width: 288px;
+    height: 280px;
+    object-fit: cover;
+    object-position: center;
+}
+.container-profesiya{
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
+.text-portfolio{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.portfolio-list:hover .text-app{
+    transform: translateX(0%);
+}
+.text-ex-image{
+    position: relative;
+    overflow: hidden;
+
+}
+.text-app{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #F4F4FD;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #4D5AE5;
+    padding: 40px 32px;
+    overflow: auto;
+    transform: translateY(100%);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* =====================Mobile Footer================== */
+.page-footer{
+    background-color: #2E2F42;
+    width: 100%;
+    height: 664px;
+}
+
+.footer-one-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 17px;
+    margin-bottom: 72px;
+}
+.page-footer-list{
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;}
+.logo-title-studio{
+    color: #F4F4FD;
+}
+
+.text-footer-paragraphe {
+
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #F4F4FD;
+
+
+}
+.container-networks-two{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 16px;
+    margin-bottom: 72px;
+}
+
+.networks-title, .footer-btn-title{
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+}
+.networks-access-icon{
+    gap: 16px;
+        display: flex;
+          width: 100%;
+          height: 100%;}
+
+    .networks-access-item .networks-access-link:hover,
+    .networks-access-item .networks-access-link:focus {
+      background-color: #31d0aa;}
+
+      .networks-access-link{
+        display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 40px;
+          height: 40px;
+          border-radius: 50%;
+          background-color: #4d5ae5;
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);}
+
+
 
 /* ============== /HEADER MOBILE STYLES ============== */
 
