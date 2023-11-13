@@ -20,10 +20,11 @@
 <body>
 
     <!--Page header-->
+    <div class="wrapper">
      <header class="page-header">
         <div class="container container-flex">
          <nav class="page-navigation">
-            <a  class="logo-web link" href="./index.html">Web<span class="logo-color link">Studio</span></a> 
+            <a class="logo-web link" href="./index.html">Web<span class="logo-color link">Studio</span></a> 
         <ul class="menu list">
              <li class="nav-list-item">
               <a class="page-nav contents link" href="./index.html">Studio</a>
@@ -42,12 +43,13 @@
     </use>
 </svg> 
   </svg>
+  
 </button>
     <!--Address -->
      <address class="page-address-info">
             <ul class="page-address-info list">
              <li>
-                <a class="link page-address-info" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                <a class="link page-address-info-one" href="mailto:info@devstudio.com">info@devstudio.com</a>
                 </li>
                 <li>
                  <a class="link page-address-info" href="tel:+110001111111">+11 (000) 111-11-11</a>
@@ -55,12 +57,13 @@
             </ul>   
      </address> 
      </div>
+
      </header>
       <main>
 
-        <!-- HERO SECTION --
+        <!-- HERO SECTION -->
        <section class="hero-section">
-        <div class="container">
+        <div class=" container container-logo">
          <h1  class="main-title">Effective Solutions for Your Business</h1>
          <button class="other-service"   type="button">Order Service</button>
          </div>
@@ -127,7 +130,7 @@
          </section>
 
          <!--Our Team --
-         <section class="team-section">
+         <section class="team-section section ">
             <div class="container">
             <h2 class="section-title">Our Team</h2>
             <ul class="team-section-our list">      
@@ -367,7 +370,7 @@
                 </div>
             </section>
         </main>
-   <!-- Footer --
+   <!-- Footer -->
    <footer class="page-footer">
     <div class="container flex-footer">
       <div class="footer-one-item">
@@ -405,7 +408,7 @@
               </li>
               </ul>
               </div>
-              <!-- =====email============ --
+              <!-- =====email============ -->
               <div class="footer-email">
               <p class="footer-btn-title">Subscribe</p>
               <form class="form-email">
@@ -424,7 +427,7 @@
     </div>
             </div>
       </footer>
-      <!--Backdrop  --
+      <!--Backdrop  -->
       <div class="backdrop is-open">
   <div class="modal"> 
   <button class="modal-icon-btn" type="button" aria-label="modal-close button">
@@ -432,7 +435,7 @@
       <use href="./images/icons.svg#icon-cross"></use></svg>
       </button>
       <p class="leave-your-details">Leave your contacts and we will call you back</p>
-      <!-- form windows --
+      <!-- form windows -->
       <form class="leave-details">
   <div class="information-about-yourself">
         <label class="information-about-yourself-label" for="user-name">
@@ -507,7 +510,7 @@
           id="user-privacy"
           required
           />
-              <label class="information-from-checkbox-label" for="user-privacy">
+              <label class="information-from-checkbox-label check-icons" for="user-privacy">
                 <span class="review-form-checkbox">
                   <svg class="review-form-checkbox-icon"
                   width="10"
@@ -522,30 +525,73 @@
   <button class="information-from-btn" type="submit">Send</button>
   </form>
 <!-- ==============Mobile menu -->
-  <div class="mobile-menu">
+  <class class="mobile-menu is-open">
     <div class="container mobile-menu-container">  
-      <button class ="modal-icon-btn"  type="button" aria-label="modal-close button">
+      <button class ="modal-icon-btn-item"  type="button" aria-label="modal-close button">
         <svg class="modal-close-btn-icon" width="8" height="8">
           <use href="./images/icons.svg#icon-cross"></use></svg>
           </button>
     <nav class="page-navigation">
-  <ul class="menu list">
-       <li class="nav-list-item">
-        <a class="page-nav contents link" href="./index.html">Studio</a>
+  <ul class="mobil-menu-item list">
+       <li class="mobile-list-item">
+        <a class="mobile-nav contents link" href="./index.html">Studio</a>
        </li> 
-       <li class="nav-list-item">
-           <a class="page-nav link" href="">Portfolio</a>
+       <li class="mobil-list-item">
+           <a class="mobile-nav link" href="">Portfolio</a>
       </li>   
-      <li class="nav-list-item">
-          <a class="page-nav link"  href="">Contacts</a>
+      <li class="mobil-list-item">
+          <a class="mobile-nav link"  href="">Contacts</a>
       </li>      
   </ul>
 </nav>
     </div>
+    <div class="container">
+      <address class="mobile-address">
+        <ul class="mobile-address-list">
+          <li class="mobile-address-list-item">
+            <a class="mobile-address-list-item-one" 
+            href="mailto:info@devstudio.com">info@devstudio.com</a> </li>
+<li class="mobile-address-list-item">
+  <a class="mobile-address-list-item-two" href="tel:+110001111111">+110001111111</a></li>
+</ul>
+</address>
+  </div>
+  <div class="container">
+  <ul class="mobil-network-link">
+    <li class="mobil-network-link-item">
+      <a class="mobil-network-link-icon" href="">
+        <svg class="mobil-link-icon" width="16" height="16">
+          <use
+            href="./images/icons.svg#icon-instagram"
+          ></use></svg
+      ></a>
+    </li>
+    <li class="mobil-network-link-item">
+        <a class="mobil-network-link-icon" href=""
+            ><svg class="mobil-link-icon" width="16" height="16">
+              <use
+                href="./images/icons.svg#icon-twitter"
+              ></use></svg></a>
+          </li>
+    <li class="mobil-network-link-item">
+    <a class="mobil-network-link-icon" href=""
+          ><svg class="mobil-link-icon" width="16" height="16">
+            <use
+              href="./images/icons.svg#icon-facebook"
+            ></use></svg></a>
+    </li>
+    <li class="mobil-network-link-item">
+      <a class="mobil-network-link-icon" href="">
+          <svg class="mobil-link-icon" width="16" height="16">
+            <use
+              href="./images/icons.svg#icon-linkedin"
+            ></use></svg></a>
+    </li>
+  </ul>
   </div>
 </div>
+</div>
+</div>
     </div>
-      </div>
-      </main>
     </body>
 </html>
