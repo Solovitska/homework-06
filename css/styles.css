@@ -108,7 +108,8 @@ padding-bottom: 16px;
         
 /* ================= hero mobile styles========== */
 .hero-section{
-    max-width: 767px;
+    padding-top: 112px;
+    padding-bottom: 112px;
     margin-right: auto;
     margin-left: auto;
     background-color: #2E2F42;
@@ -117,6 +118,7 @@ padding-bottom: 16px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    
 }
 
 @media screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx), 
@@ -125,27 +127,17 @@ screen and (min-device-pixel-ratio: 2) {
         background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(../images/mobilpeople-office-bark@2.jpg);
     }
 }
-.container-logo{
-    padding-top:  72px;
-    padding-bottom: 72px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    max-width: 767px;
-    margin-right: auto;
-    margin-left: auto;}
-
 .main-title  {
     max-width: 200px;
     margin-right: auto;
     margin-left: auto;
     margin-bottom: 72px;
-    margin-top: 72px;
     text-align: center;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
     color: #FFFFFF;
+
 }
     
 .other-service{
@@ -795,9 +787,9 @@ gap: 24px;
 }
 }
     /* ==============media напів-гумовий=============== */
-    @media screen and (min-width: 480px) {
+    @media screen and (min-width: 320px) {
         .container {
-          width: 352px;
+          width: 318px;
           margin-left: auto;
           margin-right: auto;
         }
@@ -879,7 +871,6 @@ font-size: 16px;
 }
 /* =======================hero Tablet============= */
  .hero-section{
-    height: 436px;
     max-width: 768px;
     padding-bottom: 112px;
     padding-top: 112px;
@@ -897,38 +888,40 @@ screen and (min-device-pixel-ratio: 2){
     font-size: 56px;
     line-height: 1.07;
 }
-.icon-list, .team-section-our, .portfolio{
+/* =================== our section tablet============ */
+.criteria-section, .team-section-our, .portfolio{
 display: flex;
 flex-direction: row;
 flex-wrap: wrap;
 column-gap: 24px;
 }
-.criteria-section, .portfolio-list{
+.criteria-list-item, .portfolio-list{
     width: calc((100% - 24px) / 2);
 }
 .criteria-list-title{
-    text-align: left; 
-}
+    text-align: left; }
+
+/* }=========================portfolio tablet============ */
 .portfolio-list{
     row-gap: 72px;
 }
 .profession-list-img{
-    width: 356px;
-    height: 300px; 
+    width: 356px; 
 }
-.page-foote{
-    height: 456px;   
+   
+
+.footer-one-item, .container-networks-two, .form-email{
+    justify-content: flex-start;
+    align-items: flex-start; 
+
 }
 
-.footer-one-item, .container-networks-two, .footer-email{
-    justify-content: flex-start;
-    align-items: flex-start;  
-}
-.flex-footer{
+.flex-footer, .footer-email{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     column-gap: 24px;
+   
 }
 .text-footer-paragraphe, .information-about-yourself-input{
 width: 264px;
@@ -937,16 +930,12 @@ width: 264px;
     width: 408px;
     min-height: 584px;
 }
-.leave-details{
+.form-email{
     flex-direction: row;
-    column-gap: 24px}
-
-
-
-
+    column-gap: 24px;
 }
 
  
 
 
-
+      }
