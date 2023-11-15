@@ -965,13 +965,13 @@ width: 264px;
     max-width: 1440px;
     padding-bottom: 188px;
     padding-top: 188px;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(../images/people-main\ 1.jpg); 
+    background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(../images/tablet@1x.jpg); 
 }
 @media screen and (min-resolution: 192dpi) and (min-width: 1158px),
     screen and (min-resolution: 2dppx) and (min-width: 1158px),
     screen and (min-device-pixel-ratio: 2) and (min-width: 1158px) {
     .hero-section {
-        background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(../images/people-main1@2x\ \(2\).jpg);
+        background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(../images/tablet@2x.jpg);
     }
 }
 
