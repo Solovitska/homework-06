@@ -37,6 +37,7 @@ body {
     color: #434455;
     background-color: #ffffff;
     min-width: 320px;
+   
 }
 .wrapper {
     
@@ -787,9 +788,9 @@ gap: 24px;
 }
 }
     /* ==============media напів-гумовий=============== */
-    @media screen and (min-width: 320px) {
+    @media screen and (min-width: 480px) {
         .container {
-          width: 318px;
+          width: 350px;
           margin-left: auto;
           margin-right: auto;
         }
@@ -873,12 +874,12 @@ font-size: 12px;
  .hero-section{
     padding-bottom: 112px;
     padding-top: 112px;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(../images/people-office.jpg); 
+    background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(../images/tablet@1x.jpg); 
 }
 @media screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx), 
 screen and (min-device-pixel-ratio: 2){
     .hero-section {
-        background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(../images/mobilpeople-office-bark@2.jpg);
+        background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(../images/tablet@2x.jpg);
     }
 }
 .main-title{
@@ -914,8 +915,9 @@ column-gap: 24px;
     align-items: flex-start; 
 
 }
-
-.flex-footer, .footer-email{
+.footer-email{
+    align-items: flex-start;}
+.flex-footer{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -1045,8 +1047,9 @@ margin-right: 120px;
     margin-bottom: 0;
    
  }
+
 .footer-email{
-   justify-content: flex-start;
+    align-items: flex-start;
 }
 .form-email{
     display: flex;
