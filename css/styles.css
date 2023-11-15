@@ -857,7 +857,7 @@ color: #404bbf;}
     font-style: normal;
 }
 .page-address-info-item{
-font-size: 16px;
+font-size: 12px;
         font-weight: 400;
         line-height: 1.5;
         font-style: normal;
@@ -871,7 +871,6 @@ font-size: 16px;
 }
 /* =======================hero Tablet============= */
  .hero-section{
-    max-width: 768px;
     padding-bottom: 112px;
     padding-top: 112px;
     background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(../images/people-office.jpg); 
@@ -909,7 +908,7 @@ column-gap: 24px;
     width: 356px; 
 }
    
-
+/* =============================footer tablet============= */
 .footer-one-item, .container-networks-two, .form-email{
     justify-content: flex-start;
     align-items: flex-start; 
@@ -926,16 +925,133 @@ column-gap: 24px;
 .text-footer-paragraphe, .information-about-yourself-input{
 width: 264px;
 }
-.modal{
-    width: 408px;
-    min-height: 584px;
-}
+
 .form-email{
     flex-direction: row;
     column-gap: 24px;
 }
-
- 
-
-
+.footer-intyp{
+    width: 264px;
+}
+.modal{
+    width: 408px;
+    min-height: 584px;
+}
       }
+/* =========================================Main page */
+ @media screen and (min-width: 1158px) {
+    .container {
+        width: 1158px;
+    }
+    
+    .section {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+    .logo-web{
+        margin-right: 76px;
+            }
+
+.page-address-info{
+    flex-direction: row;
+    gap: 40px;
+}
+.page-address-info-item{
+    font-size: 16px;}
+.hero-section{
+    height: 600px;
+    max-width: 1440px;
+    padding-bottom: 188px;
+    padding-top: 188px;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(../images/people-main\ 1.jpg); 
+}
+@media screen and (min-resolution: 192dpi) and (min-width: 1158px),
+    screen and (min-resolution: 2dppx) and (min-width: 1158px),
+    screen and (min-device-pixel-ratio: 2) and (min-width: 1158px) {
+    .hero-section {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(../images/people-main1@2x\ \(2\).jpg);
+    }
+}
+
+.main-title {
+    
+    margin-bottom: 48px;
+}
+/* =================== our section main page============ */
+.icon-list, .team-section-our{
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    }
+    .icon-list-item, .team-section-list-item{
+        width: calc((100% - 3 * 24px) / 4) ;
+    }
+
+    .container-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 112px;
+    border-radius: 4px;
+    border: 1px solid #8E8F99;
+    margin-bottom: 8px;
+    background: #F4F4FD;}
+
+.criteria-list-title{
+text-align: center;
+font-size: 36px;
+line-height: 1.11;
+letter-spacing: 0.02em;
+margin-bottom: 8px;
+color: #2E2F42;}
+.text{
+font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;}
+ /* }=========================portfolio main page============ */
+.portfolio-list{
+    row-gap: 72px;
+}
+   .portfolio-list{
+    width: calc((100% - 2 * 24px) / 3);
+   }
+/* =============================footer main page============= */
+.page-footer{ 
+padding-top: 100px;
+padding-bottom: 100px;
+height: 312px;
+}
+.flex-footer{
+flex-wrap: nowrap;
+margin-left: auto;
+margin-right: auto;
+padding-left: 15px;
+padding-right: 15px;
+align-items: baseline;
+column-gap: 0;}
+
+.footer-one-item{
+margin-right: 120px;
+ margin-bottom: 0;}
+
+.page-footer-list{
+    margin-right: 120px;
+    margin-bottom: 0;
+}
+ .container-networks-two{
+    margin-right: 80px;
+    margin-bottom: 0;
+   
+ }
+.footer-email{
+   justify-content: flex-start;
+}
+.form-email{
+    display: flex;
+    margin-top: 16px;
+    gap: 24px;
+    
+}
+ }
