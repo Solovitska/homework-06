@@ -257,9 +257,7 @@ background-color: #F4F4FD;}
     border-radius: 0px 0px 4px 4px;
 
 }
-.team-section-list-item:hover,
-.team-section-list-item:focus{
-background-color: #404bbf;}
+
 
 .first-name{
     text-align: center;
@@ -992,7 +990,11 @@ width: 264px;
     gap: 40px;
 }
 .page-address-info-item{
-    font-size: 16px;}
+    font-size: 16px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
 .hero-section{
     max-width: 1440px;
     padding-bottom: 188px;
@@ -1017,9 +1019,6 @@ width: 264px;
     flex-direction: row;
     gap: 24px;
     }
-
-
-
     .icon-list-item, .team-section-list-item{
         width: calc((100% - 3 * 24px) / 4) ;
     }
