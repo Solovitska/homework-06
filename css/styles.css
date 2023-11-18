@@ -1032,6 +1032,8 @@ width: 264px;
     display: flex;
     flex-direction: row;
     gap: 24px;
+    flex-wrap: nowrap;
+
     }
     .icon-list-item, .team-section-list-item{
         width: calc((100% - 3 * 24px) / 4) ;
