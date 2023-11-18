@@ -994,7 +994,6 @@ width: 264px;
 .page-address-info-item{
     font-size: 16px;}
 .hero-section{
-    height: 600px;
     max-width: 1440px;
     padding-bottom: 188px;
     padding-top: 188px;
@@ -1042,7 +1041,7 @@ width: 264px;
 
 .criteria-list-title{
 text-align: center;
-font-size: 36px;
+font-size: 20px;
 line-height: 1.11;
 letter-spacing: 0.02em;
 margin-bottom: 8px;
