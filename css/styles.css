@@ -1061,6 +1061,11 @@ width: 264px;
         margin-bottom: 8px;
         gap: 24px;
 }
+.icon-list {
+    display: flex;
+    gap: 24px;
+    list-style-type: none;
+  }
 .text{
 font-size: 16px;
     font-weight: 400;
