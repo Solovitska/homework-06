@@ -140,7 +140,7 @@ screen and (min-device-pixel-ratio: 2) {
     color: #FFFFFF;
 
 }
-    
+
 .other-service{
 
 display: block;
@@ -916,6 +916,9 @@ screen and (min-device-pixel-ratio: 2){
     font-size: 56px;
     line-height: 1.07;
 }
+.small-letter {
+    text-transform: lowercase;
+  }
 /* =================== our section tablet============ */
 .criteria-section{
 display: flex;
@@ -1028,7 +1031,7 @@ width: 264px;
     margin-bottom: 48px;
 }
 /* =================== our section main page============ */
-.icon-list, .team-section-our{
+ .team-section-our{
     display: flex;
     flex-direction: row;
     gap: 24px;
@@ -1060,6 +1063,8 @@ width: 264px;
         letter-spacing: 0.02em;
         margin-bottom: 8px;
         gap: 24px;
+        width: 264px;
+
 }
 .icon-list {
     display: flex;
@@ -1083,7 +1088,7 @@ font-size: 16px;
 .page-footer{ 
 padding-top: 100px;
 padding-bottom: 100px;
-height: 312px;
+
 }
 .flex-footer{
 flex-wrap: nowrap;
