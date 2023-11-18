@@ -107,13 +107,12 @@ display: flex;
         
 /* ================= hero mobile styles========== */
 .hero-section{
-    padding-top: 112px;
-    padding-bottom: 112px;
+    padding-top: 72px;
+    padding-bottom: 72px; 
     margin-right: auto;
     margin-left: auto;
     background-color: #2E2F42;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), 
-    url(../images/mobilpeople-office-bark@1.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(../images/mobilpeople-office-bark@1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -972,7 +971,7 @@ column-gap: 24px;
     padding-left: 108px;
    
 }
-.text-footer-paragraphe, .information-about-yourself-input{
+.text-footer-paragraphe{
 width: 264px;
 }
 
