@@ -64,8 +64,8 @@ body {
      
 }
 .section{
-padding-top: 60px;
-padding-bottom: 60px;
+padding-top: 96px;
+padding-bottom: 96px;
 
 }
   /* ==========Загальні стилі======== */
@@ -91,17 +91,15 @@ display: flex;
   justify-content: space-between;
 }
    .logo-web{
-    font-family: 'Raleway', sans-serif;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 1.17em;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-     color: #4d5ae5;
-     display: block;
-padding-top: 16px;
-padding-bottom: 16px;
 
+        font-family: 'Raleway', sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 1.17em;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #4D5AE5;
+        display: block;
 }
 
 .logo-color {
@@ -457,7 +455,6 @@ background-color: #F4F4FD;}
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  margin-left: 77px;
   border: none;
   border-radius: 4px;
   background-color: #4d5ae5;
@@ -972,6 +969,7 @@ column-gap: 24px;
     flex-wrap: wrap;
     column-gap: 24px;
     width: 584;
+    padding-left: 108px;
    
 }
 .text-footer-paragraphe, .information-about-yourself-input{
